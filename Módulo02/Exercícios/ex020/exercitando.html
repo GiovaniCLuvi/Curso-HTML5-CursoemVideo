@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitando Pseudo_classes</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif
+        }
+
+        #saberm > #conteudo {
+            display: none;
+        }
+        #saberm:hover > #conteudo {
+            display: block;
+            color: black;
+        }
+
+        #saberm > #list {
+            display: none;
+        }
+        #saberm:hover > #list {
+            display: block;
+            color: black;
+        }
+
+        #saberm:hover {
+            color: rgb(83, 142, 231);
+            text-decoration: none;
+        }
+
+        #list {
+            font-weight: bold;
+        }
+        #conteudo{
+            text-decoration: none;
+            text-indent: 20px;
+        }
+        #saberm {
+            text-decoration: underline;
+            color: rgb(83, 142, 231);
+        }
+
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <div id="saberm"><p> Saiba mais sobre nós</p>
+        <p id="conteudo">Formado desde 1986 desenvolve um processo de crescimento  abrangendo  especialidades em vários segmentos da Odontologia  permitindo assim um atendimento qualificado para as pessoas que procuram conhecimento e destreza .
+        Essa visão abrangente produz  atendimento altamente qualificado  e personalizado que me faz referência em toda região
+        Com uma equipe de profissionais especializados e atualizados no que há de mais moderno na Odontologia que trabalham em conjunto para oferecer o que há de melhor.
+        Mestr. / Especial. em Prótese Dentára
+Especialista em Odontologia Estética
+Pós graduado em Ortodontia
+    Professor no Curso de Especialização em Dentística
+    Professor no Curso de Especialização em Odontologia Estética
+    Professor no Curso de Lentes de Contato Dental
+    Professor no Curso de Toxina Botulínica na Odontologia
+    <ul id="list">
+        <li>Mestr. / Especial. em Prótese Dentária</li>
+        <li>Especialista em Odontologia Estética</li>
+        <li>Pós graduado em Ortodontia</li>
+        <li>Professor no Curso de Especialização em Dentística</li>
+        <li>Professor no Curso de Especialização em Odontologia Estética</li>
+        <li>Professor no Curso de Lentes de Contato Dental</li>
+        <li>Professor no Curso de Toxina Botulínica na Odontologia</li>
+    </ul>
+    </div>
+</body>
+</html>
