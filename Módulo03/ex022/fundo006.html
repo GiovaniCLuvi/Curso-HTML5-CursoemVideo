@@ -8,27 +8,35 @@
     <style>
         body {
             height: 100vh;
-        background-color: black;
-        background-image: url(imagens/wallpaper002.jpg);
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        
-    }
+            background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        /*
+            ShortHand - Background
 
-    main {
-        background-color: white;
-        width: 400px;
-        padding: 10px;
-        margin: auto;
-        border: 1px solid darkblue;
-        border-radius: 15px;
-    }
+            color > image > position > repeat > attachment
+            
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
+            background-size: cover
+        */
+        }
+
+        main {
+            background-color: white;
+            max-width: 600px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
     </style>
 </head>
 <body>
     <main>
-        <h1>TEste de Imagem de Fundo</h1>
+        <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam architecto cumque quo modi hic expedita commodi, dicta quibusdam? A rerum obcaecati ducimus voluptatum ea repellat? Autem eveniet facilis officiis omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor mollitia dolorum qui, nobis nam, nesciunt aperiam reprehenderit sit eos iste quis dolorem dolore. Voluptatibus natus est at fugit! Distinctio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia nam delectus sequi soluta laborum at fugit dolor reprehenderit! Delectus unde corporis cumque nisi, ex maiores iste sequi ut aut molestias.</p>
     </main>
 </body>
